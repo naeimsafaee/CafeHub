@@ -1,0 +1,156 @@
+.modal .modal-dialog {
+  position: absolute;
+  top: auto;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  max-width: none !important;
+}
+.modal .modal-dialog::-webkit-scrollbar {
+  display: none;
+}
+
+
+@media screen and (min-width: 992px) {
+  .dialog-centered {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+  }
+}
+
+.modal .modal-content {
+  background-color: transparent;
+  max-width: 398px;
+  margin: 0;
+  border: 0;
+  height: 450px;
+}
+@media screen and (min-width: 992px) {
+  .modal .modal-content {
+    width: 590px;
+    height: 430px;
+  }
+}
+.modal .modal-body {
+  background: linear-gradient(180deg, #343434 0%, #1b1b1b 100%);
+  border-radius: 20px 20px 0px 0px;
+  padding: 0;
+}
+@media screen and (min-width: 992px) {
+  .modal .modal-body {
+    border-radius: 20px;
+  }
+}
+
+.modal .close {
+  width: 54px;
+  height: 54px;
+  border-radius: 50% !important;
+  text-shadow: none;
+  opacity: 1;
+  margin-top: 28px;
+  margin-bottom: 38px;
+}
+
+.modal .modalBtn {
+  padding: 15px 24px 14px;
+  width: 338px;
+  height: 54px;
+}
+
+.modal h2 {
+  line-height: 37px;
+  width: 340px;
+}
+
+.modal .text {
+  margin-top: 34px;
+  width: 340px;
+}
+
+.modal .btns {
+  margin-top: 48px;
+  margin-bottom: 66px;
+}
+
+.modal .modalBtn:nth-child(2) {
+  margin-top: 14px;
+}
+
+.modal .scanImg {
+  width: 119px;
+  height: 110px;
+  margin-top: 32px;
+}
+.modal .scan .text {
+  font-family: "Yekan Bakh";
+}
+
+.modal .scan .btns {
+  margin-top: 36px;
+  margin-bottom: 58px;
+}
+
+/* shopping Bag close  */
+#shoppingBagC .listOrderIcon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 36px 25px 13px;
+}
+
+#shoppingBagC .listOrderIcon img {
+  width: 30px;
+  height: 30px;
+}
+
+#shoppingBagC .listOrderIcon .circle {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 23px;
+  right: 32px;
+  background: linear-gradient(180deg, #f8981c 0%, #d97a00 100%);
+  border-radius: 50%;
+}
+
+#shoppingBagC h6 {
+  line-height: 25px;
+}
+
+#shoppingBagC .imgShppingBag {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #2f2f2f;
+  border-radius: 90px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: #1B1B1B;
+}
+#shoppingBagC .imgShppingBag img {
+  border-radius: 90px;
+}
+
+#shoppingBagC .imgShppingBag:nth-child(1) {
+  margin-left: 23.8px;
+}
+#shoppingBagC .imgShppingBag:nth-child(2) {
+ position: relative;
+ left: -10px;
+}
+#shoppingBagC .imgShppingBag:nth-child(3) {
+  position: relative;
+ left: -20px;
+}
+#shoppingBagC .imgShppingBag:nth-child(4) {
+  position: relative;
+  left: -30px;
+}

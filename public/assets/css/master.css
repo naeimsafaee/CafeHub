@@ -1,0 +1,414 @@
+﻿@font-face {
+  font-family: "Yekan Bakh heavy";
+  src: url("./../font/YekanHeavy.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Yekan Bakh bold";
+  src: url("./../font/YekanMedium.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Yekan Bakh";
+  src: url("./../font/YekanLight.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.grecaptcha-badge { visibility: hidden; }
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Yekan Bakh";
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.btn.focus,.btn:focus {
+  outline: 0;
+  outline-color: initial;
+  outline-style: none;
+  outline-width: 0px;
+  box-shadow: none !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-black2: #393939;
+  --color-Secondary: #B8B8B8;
+}
+
+li {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  direction: rtl;
+  color: var(--color-white);
+  font-family: "Yekan Bakh bold";
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  font-size: 14px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  line-height: 2;
+  height: 100vh;
+  background-color: var(--color-black);
+}
+
+.container-fluid,
+.container {
+  padding: 0;
+}
+
+.dFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+textarea::placeholder{
+  font-size: 14px;
+  color: var(--color-Secondary);
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #393939 inset !important;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: var(--color-Secondary) !important;
+}
+
+/* small nav  */
+.smallnav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.logoNav {
+  width: 58px;
+  height: 44px;
+  margin-right: 30px;
+  margin-top: 38px;
+}
+
+.btnBackNav {
+  width: 40px;
+  height: 40px;
+  background: #ff8e00;
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 36px;
+  float: left;
+}
+@media screen and (max-width: 768px) {
+  .btnBackNav {
+    margin-left: 20px;
+    margin-top: 41px;
+  }
+}
+
+.btnBackNav img {
+  width: 34px;
+  height: 34px;
+}
+
+
+button{
+display: flex !important;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 16px !important;
+line-height: 25px !important;
+font-family: "Yekan Bakh bold";
+color: var(--color-black) !important;
+background: linear-gradient(180deg, #f8981c 0%, #d97a00 100%);
+border-radius: 10px !important;
+}
+
+button:hover{
+  background: linear-gradient(180deg, #F8A53A 0%, #EE8F14 100%);
+}
+
+.ltr{
+  direction: ltr;
+}
+
+.w95{
+  width: 95% !important;
+}
+
+.pNavIcon{
+    padding: 12px;
+}
+
+.contactUS{
+    /* width: 75%; */
+    margin-top: 40px;
+}
+
+.formCU{
+    margin-top: 40px;
+}
+
+.formCU input {
+    width: 306px;
+    max-width: 100%;
+    height: 50px;
+    background: #393939;
+    border: 1px solid #5f5f5f;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    font-family: "Yekan Bakh bold";
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-Secondary);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+input:-webkit-autofill {
+    background-color: #393939;
+}
+
+.formCU textarea {
+    resize: none;
+    width: 306px;
+    max-width: 100%;
+    height: 156px;
+    background: #393939;
+    border: 1px solid #5f5f5f;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    font-family: "Yekan Bakh bold";
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-Secondary);
+    padding: 16px 20px;
+}
+.formCU label {
+    display: block;
+    line-height: 22px;
+    color: var(--color-Secondary);
+    margin-bottom: 6px;
+}
+
+.formCU button{
+    width: 184px;
+    height: 54px;
+}
+
+.contactUS img{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 351px;
+    width: 526px;
+    margin-top: 38px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 351px;
+    width: 526px;
+}
+
+@media (max-width:576px){
+    .mapouter {
+        height: 253px;
+        width: 374px;
+        max-width: 100%;
+    }
+    .gmap_canvas {
+        height: 253px;
+        width: 374px;
+        max-width: 100%;
+    }
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.profile-money{
+    width: 239px;
+    margin-top: 28px;
+}
+
+.profile-money .pm-title{
+    line-height: 22px;
+    color: #EB8C11;
+    margin-right: 10px;
+}
+
+.profile-money .pm-box{
+    width: 237px;
+    height: 78px;
+    border: 1px solid #EB8C11;
+    border-radius: 20px;
+    color: #EB8C11;
+}
+
+.profile-money .pm-price {
+    font-size: 24px;
+}
+
+footer{
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.footer {
+    border-top: 1px solid #636363;
+    padding: 38px 0;
+}
+
+.footer .col-12{
+    padding: 20px 0;
+}
+
+.footer h3{
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.footer .number, .footer .location{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.footer .number svg, .footer .location svg{
+    margin-left: 8px;
+}
+
+.footer .social-media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .social-media a svg{
+    transition: all .3s;
+}
+
+.footer .social-media a:hover svg{
+    transform: scale(1.2);
+}
+
+.footer .enamad{
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+}
+
+@media(min-width:992px){
+    .footer .enamad{
+        margin: 20px auto 0 0;
+    }
+    footer{
+        padding: 0 30px;
+        margin-top: 70px;
+    }
+}
+
+.categorymenu .active > div.activeMenu{
+    display: block !important;
+}
+
+
+
+

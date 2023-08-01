@@ -1,0 +1,735 @@
+.mainBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.mainBody .rightBody {
+    width: 82px !important;
+    background: #1b1b1b;
+    overflow-y: scroll;
+}
+
+.mainBody .middle {
+    width: 100%;
+    margin-right: 82px;
+    margin-left: 374px;
+}
+
+@media screen and (max-width: 1200px) {
+    .mainBody .middle {
+        margin-left: 0;
+    }
+
+    .show_under_1200 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .show_under_1200 {
+        display: none;
+    }
+}
+
+.mainBody .leftBody {
+    width: 374px;
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 1200px) {
+    .mainBody .leftBody {
+        display: none;
+    }
+}
+
+.leftBody ,.rightBody {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.rightBody::-webkit-scrollbar {
+    display: none;
+}
+
+.leftBody::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    margin-top: 34px;
+}
+
+.header .right .item {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 25px;
+    display: inline;
+    margin-left: 46px;
+}
+
+@media screen and (max-width: 768px) {
+    .header .right .item {
+        margin-left: 0px;
+    }
+}
+
+.header .right .item a {
+    color: #ffffff;
+}
+
+.header .right .item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 33px;
+    margin-left: 11px;
+}
+
+.header .left img {
+    width: 76px;
+    height: 55px;
+    margin-left: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .header .left img {
+        margin-right: 40px;
+    }
+}
+
+.dwnApp {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 14px;
+    color: var(--color-white) !important;
+    width: 184px;
+    height: 54px;
+    background: linear-gradient(
+        267.91deg,
+        #b422c0 -0.17%,
+        #00d98b 100%
+    ) !important;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.dwnApp:hover {
+    background: linear-gradient(268.07deg, #B422C0 -32.66%, #00D98B 100%) !important;
+}
+
+.mobileHead {
+    margin-top: 34px;
+}
+
+.mobileHead .item {
+    margin-top: 14px;
+}
+
+.mobileHead .item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 254px;
+    height: 54px;
+    margin: auto;
+    padding: 15px 24px 14px;
+    background: var(--color-black2);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--color-Secondary);
+}
+
+.mafia {
+    width: 90%;
+    /* height: 290px; */
+    background: linear-gradient(180deg, #343434 0%, #1b1b1b 100%);
+    border-radius: 20px;
+    margin-top: 98px;
+}
+
+@media screen and (max-width: 992px) {
+    .mafia {
+        height: auto;
+        margin: 32px;
+        width: 85%;
+    }
+}
+
+.mafia h2 {
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.mafia .details {
+    margin-right: 6px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mafia .details .subDeiails {
+    display: inline;
+}
+
+.mafia .details img {
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.mafia .details span {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.mafia p {
+    margin-top: 18px;
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+.mafia button {
+    width: 80px;
+    height: 82.69px;
+    margin: 16px 26px 18px auto;
+}
+
+.mafia .mafiaImg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.always {
+    margin-top: 48px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.always .alwaysImg {
+    width: 40px;
+    height: 40px;
+    background: #ff8e00;
+    border-radius: 8px;
+}
+
+.always h6 {
+    margin-right: 10px;
+}
+
+.always .alwaysImg img {
+    width: 24px;
+    height: 24px;
+}
+
+.cardMenu {
+    padding: 0 10px;
+    margin-bottom: 18px;
+}
+
+.cardMenu h6 {
+    margin-bottom: 2px;
+    line-height: 25px;
+}
+
+.cardMenu .cardMenuImg {
+    height: auto;
+    border-radius: 10px;
+}
+
+.cardMenu .detail img {
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+}
+
+.cardMenu button {
+    padding: 8px 24px;
+    width: 72px;
+    height: 40px;
+    margin-top: 14px;
+}
+
+.cardMenu button img {
+    width: 24px;
+    height: 24px;
+}
+
+/* rightBody  */
+.rightBody {
+    position: fixed !important;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.rightBody img {
+    width: 54px;
+    height: 54px;
+    margin: 4px 14px;
+}
+
+.rightBody .account {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #f8981c 0%, #d97a00 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.rightBody .account img {
+    width: 24px;
+    height: 24px;
+}
+
+.rightBody .call {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #13543d;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .rightBody .call {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+.rightBody .call .linkCall {
+    width: 43.45px;
+    height: 43.45px;
+    background: linear-gradient(180deg, #00d98b 0%, #09b074 100%);
+    border-radius: 50%;
+}
+
+.rightBody .call img {
+    width: 24px;
+    height: 24px;
+}
+
+.rightBody .callWaiter {
+    margin-top: 40px;
+    background: linear-gradient(
+        180deg,
+        rgba(248, 152, 28, 0.3) 0%,
+        rgba(217, 122, 0, 0.3) 100%
+    );
+}
+
+.rightBody .callWaiter .linkCall {
+    background: linear-gradient(180deg, #f8981c 0%, #d97a00 100%);
+}
+
+/* leftBody  */
+.leftBody {
+    padding-top: 36px;
+    position: relative;
+    background: linear-gradient(180deg, #343434 0%, #1b1b1b 55.73%);
+}
+
+.leftBody .listOrderIcon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 36px;
+    margin-left: 13px;
+}
+
+.leftBody .listOrderIcon img {
+    width: 30px;
+    height: 30px;
+}
+
+.leftBody .listOrderIcon .circle {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    background: linear-gradient(180deg, #f8981c 0%, #d97a00 100%);
+    border-radius: 50%;
+}
+
+.cardOrder {
+    width: 374px;
+    margin-bottom: 34px;
+}
+
+.cardOrder .cardOrderImg {
+    width: 100px;
+    height: 68px;
+    border: 1px solid #2f2f2f;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+.cardOrder h6 {
+    line-height: 25px;
+}
+
+.cardOrder .details {
+    width: 205px;
+    margin-top: 5px;
+}
+
+.cardOrder .details img {
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+}
+
+.cardOrder .cardOrderIn {
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+.cardOrder .number {
+    width: 278px;
+    height: 68px;
+    background: var(--color-black2);
+    border: 1px solid #5f5f5f;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cardOrder .number button {
+    width: 72px;
+    height: 40px;
+}
+
+.cardOrder .number button img {
+    width: 24px;
+    height: 24px;
+}
+
+.cardOrder button {
+    width: 72px;
+    height: 40px;
+    position: absolute;
+    top: 19%;
+}
+
+.cardOrder .number .delete {
+    right: -18px;
+}
+
+.cardOrder .number .plus {
+    left: -18px;
+}
+
+.cards hr {
+    width: 314px;
+    background: #4B4B4B;
+}
+
+.moneyPlus {
+    font-size: 24px;
+    line-height: 37px;
+    margin-top: 3px;
+}
+
+.deliverOrder {
+    margin-top: 80px;
+}
+
+.deliverOrder h6 {
+    line-height: 25px;
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+
+.deliverOrder label {
+    width: 98px;
+    height: 98px;
+    border-radius: 10px;
+    background: var(--color-black2);
+    border: 1px solid #5f5f5f;
+    color: var(--color-Secondary);
+    line-height: 28px;
+    margin-bottom: 0;
+    padding: 27px 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.deliverOrder label div {
+    margin: 6px auto;
+}
+
+input[type="radio"]:checked ~ label {
+    background: #1b1b1b;
+    border: 1px solid #ff8e00;
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 768px) {
+    .deliverOrder label {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .deliverOrder .methodPay {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.deliverOrder button {
+    width: 314px;
+    height: 54px;
+    font-size: 16px;
+    padding: 15px 0px 14px;
+    margin-top: 26px;
+    margin-bottom: 84px;
+}
+
+/* emptyListOrder  */
+.emptyListOrder {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.emptyListOrder img {
+    width: 144px;
+    height: 144px;
+    margin-top: 50px;
+}
+
+.rightBody .activeMenu {
+    position: absolute;
+    width: 7px;
+    height: 54px;
+    right: 74px;
+    background: #ff8e00;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    display: none;
+}
+
+.categorymenu a:nth-child(1) .activeMenu {
+    top: 124px;
+}
+
+.categorymenu a:nth-child(2) .activeMenu  {
+    top: 186px;
+}
+
+.categorymenu a:nth-child(3) .activeMenu  {
+    top: 249px;
+}
+
+.categorymenu a:nth-child(4) .activeMenu  {
+    top: 310px;
+}
+
+.categorymenu a:nth-child(5) .activeMenu  {
+    top: 372px;
+}
+
+.categorymenu a:nth-child(6) .activeMenu  {
+    top: 434px;
+}
+
+.categorymenu a:nth-child(7) .activeMenu {
+    top: 496px;
+}
+.categorymenu a:nth-child(8) .activeMenu {
+    top: 558px;
+}
+.categorymenu a:nth-child(9) .activeMenu {
+    top: 620px;
+}
+.categorymenu a:nth-child(10) .activeMenu {
+    top: 682px;
+}
+.categorymenu a:nth-child(11) .activeMenu {
+    top: 744px;
+}
+
+.rightBody .waiterTime {
+    background: linear-gradient(
+        180deg,
+        rgba(248, 152, 28, 0.7) 0%,
+        rgba(217, 122, 0, 0.7) 100%
+    );
+}
+
+.rightBody .waiterTime a {
+    font-size: 20px;
+    line-height: 31px;
+    color: #1b1b1b !important;
+}
+
+.mafiaEventCard {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mafiaEventCard h2 {
+    line-height: 37px;
+    margin-bottom: 4px;
+}
+
+.mafiaEventCard p {
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
+
+.mafiaEventCard .subMafia {
+    display: flex;
+    align-items: center;
+}
+
+.mafiaEventCard .subMafia img {
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+}
+
+.mafiaBtn {
+    margin-top: 36px;
+    padding: 15px 0px 14px;
+    width: 314px;
+    height: 54px;
+}
+
+/* reserve  */
+.reserve {
+    margin-bottom: 24px;
+}
+
+.reserve .reserveIcon {
+    width: 133px;
+    height: 70px;
+    margin-bottom: 52px;
+}
+
+.reserve h2 {
+    margin-bottom: 42px;
+    line-height: 37px;
+}
+
+.reserve input {
+    width: 306px;
+    height: 50px;
+    background: #393939;
+    border: 1px solid #5f5f5f;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    font-family: "Yekan Bakh bold";
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-Secondary);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+input:-webkit-autofill {
+    background-color: #393939;
+}
+
+.reserve textarea {
+    resize: none;
+    width: 306px;
+    height: 156px;
+    background: #393939;
+    border: 1px solid #5f5f5f;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    font-family: "Yekan Bakh bold";
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-Secondary);
+    padding: 16px 20px;
+}
+
+.reserve label {
+    display: block;
+    line-height: 22px;
+    color: var(--color-Secondary);
+    margin-bottom: 6px;
+}
+
+/* hamishegi  */
+.lastOrderNav {
+    margin-top: 48px;
+}
+
+.lastOrderNav img {
+    width: 24px;
+    height: 24px;
+}
+
+.hamishegi {
+    width: 374px;
+    background: #323232;
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 34px;
+}
+
+.hamishegi .clock {
+    width: 40px;
+    height: 40px;
+    background: #ff8e00;
+    border-radius: 8px;
+    margin: 20px 20px 32px 10px;
+}
+
+.hamishegi .clock img {
+    width: 24px;
+    height: 24px;
+}
+
+.hamishegi .date {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 28px;
+}
+
+.hamishegi hr {
+    width: 338px;
+    height: 1px;
+    background: #4B4B4B;
+    border-radius: 20px;
+    margin: 0 auto 20px auto;
+}
+
+.cardHamishegi {
+    margin-bottom: 6px;
+}
+
+.hamishegi button {
+    padding: 14px 24px;
+    width: 314px;
+    height: 53px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
